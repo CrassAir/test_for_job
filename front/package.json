@@ -1,0 +1,69 @@
+{
+  "name": "test_for_job",
+  "version": "0.01",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/lab": "^5.0.0-alpha.135",
+    "@mui/material": "^5.13.7",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.4.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/react-image-gallery": "^1.2.0",
+    "@types/react-infinite-scroller": "^1.2.3",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
+    "notistack": "^3.0.1",
+    "react": "^18.2.0",
+    "react-d3-tree": "^3.6.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.1",
+    "react-image-gallery": "^1.2.12",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.63.6",
+    "styled-components": "^6.0.3",
+    "typescript": "^4.9.5",
+    "web-vitals": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2"
+  }
+}
