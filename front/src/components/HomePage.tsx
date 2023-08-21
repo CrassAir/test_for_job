@@ -26,7 +26,7 @@ export default function HomePage() {
                     <React.Fragment>
                         <Button onClick={() => navigate('/citizens/citizen/create')} size={'large'}
                                 endIcon={<AddIcon/>}><span>Создать</span>
-                        </Button> <Button onClick={() => navigate('/create_group')} size={'large'}
+                        </Button> <Button onClick={() => navigate('/citizens/create_group')} size={'large'}
                                           endIcon={<QueueIcon/>}><span>Создать группой</span></Button>
                     </React.Fragment>
                 }
