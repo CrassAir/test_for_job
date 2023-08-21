@@ -1,5 +1,13 @@
 # Test work for job
 
 ### To start the project:
-* docker compose up -d --build
+### Base
+* docker compose up -d --build 
+* после нужно зайти в контейнер и выполнить мграции 
+* docker compose exec web bash
+* cd base && python manage.py makemigrations && python manage.py migrate
+* python manage.py createsuperuser
+* exit
+
+### Front
 * cd /front && npm install && npm start
