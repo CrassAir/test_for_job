@@ -132,3 +132,4 @@ mediafiles/
 .idea
 front/node_modules
 front/build
+fornt/package-lock.json
