@@ -55,10 +55,9 @@ export default function AboutPage(props: AboutPageProps) {
                 <InfoTitle subtitle={'frontend'} title={'React JS, MUI, redux-toolkit, axios, TypeScript'}/>
                 <InfoTitle subtitle={'mobile'} title={'Flutter, GetX, Dio (only android)'}/>
 
-                Ответственный, пунктуальный, не конфликтный.
-                Присутствует здоровое чувство юмора.
-                Стремлюсь изучать что то новое, решать сложные задачи.
-                <Typography>asdasdasd</Typography>
+                <Typography>Ответственный, пунктуальный, не конфликтный.
+                    Присутствует здоровое чувство юмора.
+                    Стремлюсь изучать что то новое, решать сложные задачи.</Typography>
             </Paper>
         </Grid>
     </Grid>
