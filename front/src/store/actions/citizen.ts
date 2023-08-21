@@ -67,7 +67,7 @@ export const getJobs = createAsyncThunk(
 
 export const createRandomCitizens = createAsyncThunk(
     'createRandomCitizens',
-    async (post:any, thunkAPI) => {
+    async (post: any, thunkAPI) => {
         try {
             await api.post(apiUrl + `citizens/citizens/create_seeds/`, post)
             thunkAPI.dispatch(getCitizens())
@@ -94,7 +94,7 @@ export const updateCitizen = createAsyncThunk(
     async (post: any, thunkAPI) => {
         try {
             const {data} = await api.put(apiUrl + `citizens/citizens/${post.id}/`, post)
-            return data
+            thunkAPI.dispatch(getCitizens())
         } catch (e) {
             return thunkAPI.rejectWithValue(apiError(e as Error | AxiosError))
         }
@@ -106,7 +106,7 @@ export const deleteCitizen = createAsyncThunk(
     async (id: number, thunkAPI) => {
         try {
             await api.delete(apiUrl + `citizens/citizens/${id}/`)
-            return id
+            thunkAPI.dispatch(getCitizens())
         } catch (e) {
             return thunkAPI.rejectWithValue(apiError(e as Error | AxiosError))
         }
